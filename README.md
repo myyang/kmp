@@ -8,11 +8,12 @@ package main
 
 import (
     "github.com/myyang/kmp"
+    "fmt"
 )
 
 func main() {
     s := kmp.KMP("ABCC", "ABCCCC")
-    println(s)
+    fmt.Printf("%v\n", s)
 }
 ```
 
