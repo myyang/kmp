@@ -11,6 +11,13 @@ import (
 )
 
 func main() {
-    s := kmp.KMP("ABCCCC", "ABC")
+    s := kmp.KMP("ABCC", "ABCCCC")
+    println(s)
 }
+```
+
+Output:
+
+```
+[0]
 ```
