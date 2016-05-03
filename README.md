@@ -3,7 +3,7 @@ Simple KMP implement
 
 Example:
 
-```
+```go
 package main
 
 import (
